@@ -14,4 +14,42 @@ public class TwoInts
 	{
 		return (one + " + " + two + " = " + (one + two) + ", " + one + " % " + two + " = " + (one % two) + ", " + one + " * " + two + " = " + (one * two) + ", " + one + " / " + two + " = " + (one / two));
 	}
+	public int larger()
+	{
+		if (one > two)
+		{
+			return one;
+		}
+		else if (two > one)
+		{
+			return two;
+		}
+		else
+		{
+			return one;
+		}
+	}
+	public boolean isEven()
+	{
+		int var = one + two;
+		if (var % 2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public boolean isMultiple()
+	{
+		if (one % two == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }
