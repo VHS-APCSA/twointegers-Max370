@@ -18,4 +18,3 @@ public class TwoIntsRunner
 		System.out.println(isMultiple);
 	}
 }
-	

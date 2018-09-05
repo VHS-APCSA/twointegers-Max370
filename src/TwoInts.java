@@ -12,7 +12,7 @@ public class TwoInts
 	
 	public String arithmetic()
 	{
-		return (one + " + " + two + " = " + (one + two) + ", " + one + " % " + two + " = " + (one % two) + ", " + one + " * " + two + " = " + (one * two) + ", " + one + " / " + two + " = " + (one / two));
+		return (one + " + " + two + " = " + (one + two) + ", " + one + " % " + two + " = " + (one % two) + ", " + one + " * " + two + " = " + (one * two) + ", " + one + " / " + two + " = " + ( (double) one / two));
 	}
 	public int larger()
 	{
