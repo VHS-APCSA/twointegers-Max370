@@ -4,10 +4,10 @@ public class TwoInts
 	private int one;
 	private int two;
 	
-	public TwoInts ()
+	public TwoInts (int one, int two)
 	{
-		one = 3;
-		two = 5;
+	this.one = one;
+	this.two = two;
 	}
 	
 	public String arithmetic()
