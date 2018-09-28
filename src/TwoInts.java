@@ -9,7 +9,18 @@ public class TwoInts
 	this.one = one;
 	this.two = two;
 	}
-	
+	public int getOne() {
+		return one;
+	}
+	public void setOne(int one) {
+		this.one = one;
+	}
+	public int getTwo() {
+		return two;
+	}
+	public void setTwo(int two) {
+		this.two = two;
+	}
 	public String arithmetic()
 	{
 		return (one + " + " + two + " = " + (one + two) + ", " + one + " % " + two + " = " + (one % two) + ", " + one + " * " + two + " = " + (one * two) + ", " + one + " / " + two + " = " + ( (double) one / two));
